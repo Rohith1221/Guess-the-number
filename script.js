@@ -40,6 +40,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = 'You lost the game !!';
       //   score--;
       document.querySelector('.guess').value = '';
+      document.querySelector('.number').style.width = '30rem';
       document.querySelector('.number').textContent = number;
       document.querySelector('.score').textContent = 0;
       document.querySelector('.check').style.display = 'none';
@@ -55,6 +56,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = 'You lost the game !!';
       //   score--;
       document.querySelector('.guess').value = '';
+      document.querySelector('.number').style.width = '30rem';
       document.querySelector('.check').style.display = 'none';
       document.querySelector('.number').textContent = number;
       document.querySelector('.score').textContent = 0;
